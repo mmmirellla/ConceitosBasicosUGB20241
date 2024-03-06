@@ -8,8 +8,10 @@ namespace Aula01
 {
     public class Calculadora
     {   
-        public int Soma(int num1, int num2) //o primeiro int é o que vai retornr,
+        public static int Soma(int num1, int num2) //o primeiro int é o que vai retornr,
                                             //e os de dentro os que recebe
+                                            // o static torna o metodo soma como um metodo de classe,
+                                            // ou seja, nao precisa explicitar a instancia
         {
             return num1 + num2;
 

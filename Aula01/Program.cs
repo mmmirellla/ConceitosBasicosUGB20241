@@ -24,8 +24,8 @@ do
         int num1 = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Informe outro número inteiro: ");
         int num2 = Convert.ToInt32(Console.ReadLine());
-        var calculadora = new Calculadora(); //instanciando
-        Console.WriteLine($"A soma dos números {num1} + {num2} é {calculadora.Soma(num1, num2)}");
+        //var calculadora = new Calculadora(); //instanciar assim nao é necessario usando static
+        Console.WriteLine($"A soma dos números {num1} + {num2} é {Calculadora.Soma(num1, num2)}");
         
         entrada = false;
     }
